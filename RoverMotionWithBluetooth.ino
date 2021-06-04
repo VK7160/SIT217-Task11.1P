@@ -16,7 +16,7 @@ void setup() {
   motor2.run(RELEASE);
   motor3.run(RELEASE);
   motor4.run(RELEASE);
-  Serial.Begin(9600);
+  serial.begin(9600);
 }
 
 void loop() {
